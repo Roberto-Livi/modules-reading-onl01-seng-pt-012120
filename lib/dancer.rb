@@ -10,10 +10,8 @@ class Dancer
     @name = name
   end
   
-  extend
-  FancyDance::ClassMethods
+  extend FancyDance::ClassMethods
   
-  include
-  FancyDance::InstanceMethods
+  include FancyDance::InstanceMethods
   
 end
